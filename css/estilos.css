@@ -1,0 +1,102 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bgnav {
+  background-color: pink;
+}
+
+.navbar-brand::before {
+  content: "🍷";
+}
+
+a {
+  color: black;
+}
+a span {
+  color: purple;
+}
+
+.jumbotron {
+  background-image: url(../images/brindis.jpg);
+  background-size: cover;
+  background-position: center;
+  color: black;
+  height: 100%;
+  width: 100%;
+  border-radius: 0;
+  margin: 0;
+}
+.jumbotron p {
+  color: white;
+}
+
+.nav-link {
+  text-transform: capitalize;
+  text-shadow: 0 0 rgb(15, 15, 15);
+}
+.nav-link :hover {
+  color: black !important;
+}
+
+.btn-secondary {
+  background-color: black;
+  color: white;
+  margin: 8px;
+}
+.btn-secondary :hover {
+  background-color: darkgoldenrod;
+  transform: scale(1.1);
+}
+
+h2 {
+  background-color: pink;
+  text-transform: capitalize;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: black;
+  padding: 10px;
+  margin: 0;
+}
+
+section {
+  background-color: white;
+}
+section .al {
+  background-image: url(../images/estantes.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+section .ar h3 {
+  text-align: center;
+  color: rgb(4, 4, 4);
+}
+section .ar p {
+  color: black;
+}
+section .ar p::selection {
+  color: black;
+  background-color: darkgoldenrod;
+}
+
+footer {
+  background-color: pink;
+  text-align: center;
+  color: black;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: large;
+  text-transform: capitalize;
+  padding: 18px;
+}
+footer .redes {
+  font-size: 28px;
+  letter-spacing: 15px;
+}
+footer .redes a {
+  color: white;
+}
+
+/*# sourceMappingURL=estilos.css.map */
